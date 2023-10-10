@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rock+Salt&display=swap');
+
 div {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +7,7 @@ div {
 
 header {
     background-color: #1b274b;
+    font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .logo {
@@ -13,12 +16,20 @@ header {
 
 body {
     background-color: #ffffff;
+    font-family:'Montserrat', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
+h2 {
+    margin: 0;
+}
 nav a {
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -28,6 +39,9 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -43,8 +57,13 @@ h4 {
 }
 
 .book, .join {
-    background-color: #509bce;
+    background-color: #1b274b;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,26 +78,49 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #509bce;
+}
+
 #background {
     height: 725px;
     background-color: #509bce;
 }
 
+.mountains {
+    padding: 10px;
+}
+
 .msg {
     background-color: #509bce;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #ffffff;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
 }
 
 .msg p {
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #1b274b;
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -95,6 +137,11 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
