@@ -177,6 +177,52 @@ footer .social img {
     padding-top: 10px;
 }
 
+/* CSS for Sub-page Rivers */
+#rivers-title {
+    text-align: center;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+}
+.salmon-img {
+    width: 500px;
+    float: right;
+    padding: 50px;
+}
+.salmon-river {
+    height: auto;
+    padding: 20px;
+}
+.salmon-river h2, .salmon-river p {
+    padding-left: 50px;
+    text-align: left;
+}
+.gray-img {
+    width: 500px;
+    float: left;
+    padding: 50px;
+}
+.gray-canyon {
+    height: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.gray-canyon h2, .gray-canyon p {
+    padding-right: 50px;
+    text-align: right;
+}
+.grand-img {
+    width: 500px;
+    float: right;
+    padding: 50px;
+}
+.grand-canyon {
+    height: auto;
+    padding: 20px;
+}
+.grand-canyon h2, .grand-canyon p {
+    padding-left: 50px;
+    text-align: left;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
