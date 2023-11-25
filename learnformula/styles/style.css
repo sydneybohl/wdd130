@@ -96,7 +96,7 @@ h2 {
     background-color: #9F0000;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
+    grid-column: 6/10; 
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #420469;
     text-align: center;
