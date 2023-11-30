@@ -59,14 +59,37 @@
             </section>
             <section class="terms">
                 <h2>Terms to Know</h2>
-                <p>In F1 terms, a GRAND PRIX is another word for the race. <br>
-                    "BOX, BOX" is an instruction from the driver's engineers to come into the pits to change tires.<br>
-                    The PITS are an area seperated from the track, in front of each team's garages, where cars are brought to change tires or set-up new changes in practice. <br>
-                    RED FLAG is used to indicate a stoppage of the session or race. <br>
-                    A YELLOW FLAG means the drivers need to slow down, not overtake any other cars, and be ready to move around debris,
-                    due to a hazard on the track.<br>
-                    A SAFETY CAR is a car that limits the speed of the cars on the track under yellow flag conditions.</p>
             </section>
+            <button class="accordion">GRAND PRIX</button>
+            <div class="panel">
+                <p>In F1 terms, a GRAND PRIX is another word for the race.</p>
+            </div>
+
+            <button class="accordion">"BOX, BOX"</button>
+            <div class="panel">
+                <p>"BOX, BOX" is an instruction from the driver's engineers to come into the pits to change tires.</p>
+            </div>
+
+            <button class="accordion">PITS</button>
+            <div class="panel">
+                <p>The PITS are an area seperated from the track, in front of each team's garages, where cars are brought to change tires or set-up new changes in practice. </p>
+            </div>
+          
+            <button class="accordion">RED FLAG</button>
+            <div class="panel">
+                <p>RED FLAG is used to indicate a stoppage of the session or race.</p>
+            </div>
+          
+            <button class="accordion">YELLOW FLAG</button>
+            <div class="panel">
+                <p>A YELLOW FLAG means the drivers need to slow down, not overtake any other cars, and be ready to move around debris,
+                    due to a hazard on the track.</p>
+            </div>
+          
+            <button class="accordion">SAFETY CAR</button>
+            <div class="panel">
+                <p>A SAFETY CAR is a car that limits the speed of the cars on the track under yellow flag conditions.</p>
+            </div>
         </main>
         <footer>
             <p>Sector One &copy; 2023 - Sydney Bohl</p>
@@ -83,5 +106,25 @@
             </div>
         </footer>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>        
 </body>
 </html>
