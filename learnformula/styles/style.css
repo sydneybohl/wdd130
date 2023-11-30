@@ -137,6 +137,9 @@ footer .social img {
     
 }
 /* RACE WEEK CSS */
+.terms {
+    padding-bottom: 25px;
+}
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
