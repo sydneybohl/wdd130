@@ -155,6 +155,9 @@ footer .social img {
     background-color: #420469;
     max-height: 400px;
 }
+.sunday {
+    max-height: 400px;
+}
 .friday h2, .sunday h2 {
     color: #ffffff;
     grid-column: 1/6;
@@ -177,10 +180,31 @@ footer .social img {
     grid-row: 1/3;
     width: 700px;
 }
+.saturday {
+    text-align: center;
+}
+.saturday h2 {
+    padding-top: 20px;
+}
+.saturday p {
+    padding: 15px;
+}
+.sprint {
+    text-align: center;
+}
+.sprint p {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.sprint h2 {
+    padding-top: 20px;
+}
 
 
 .terms {
     padding-bottom: 25px;
+    text-align: center;
+    color: #9F0000;
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
